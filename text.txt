@@ -1,13 +1,19 @@
 these are the steps for creating and working with git
-1- creating directory by mkdir
-2- entering that folder by cd
-3- creating git repository by git init
-4- checking if we already set the config by git config --get user.name/user.email
-5- setting or editting the config by git config --global user.name ""/ user.email ""
-6- creating a file by touch command
-7- edditing the file (here we used nano command for this text file)
-8- using git status for checking the status of the file whether it is untracked or modified or in the staging area
-9- as it is untracked, we use command: git add "file name" to move it to the staging area
+1- creating directory by: mkdir
+2- entering that folder by: cd [folder name]
+3- creating git repository by command: git init
+4- checking if we already have set the config by command: git config --get user.name/user.email
+5- setting or editing the config by command: git config --global user.name ""/ user.email ""
+6- creating a file by command: touch
+7- editing the file (here we used nano command for this text file)
+8- using command: git status for checking the status of the file whether it is untracked or modified or in the staging area
+9- as our file is untracked now, we use command: git add "file name" to move it to the staging area
 10- then we use command: git commit "descripting message" to setting the file as commit
 11- we can edit the file again and by using command: git status we can see that it is labeled as modified
 12- we edit the file again to check the status of the file and the differences between commits.
+13- we can check the edited details by command: git diff if we have the file in untracked, modified or staging area. this command check the differences of the file and the Head commit
+14- we can use command: git diff HEAD^ to check the one commit before the Head and use git diff HEAD~4 to check the one which is 4 time before the Head we can put any number instead of 4
+15- we can use command: git log to check all the commits with a comprehensive detail. we also can use git log --oneline to see just the comments of the commits in one line
+16- we can use comman: git blame to see the details of the history of every edited part of the file and its author
+17- we also can use command: git tag to set a human readable tag or description for a commit
+18- if we want to see the datails of all the edits and actions in the repository, we can use command: git reflog
