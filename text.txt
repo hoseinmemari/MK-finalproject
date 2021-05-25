@@ -4,3 +4,9 @@ these are the steps for creating and working with git
 3- creating git repository by git init
 4- checking if we already set the config by git config --get user.name/user.email
 5- setting or editting the config by git config --global user.name ""/ user.email ""
+6- creating a file by touch command
+7- edditing the file (here we used nano command for this text file)
+8- using git status for checking the status of the file whether it is untracked or modified or in the staging area
+9- as it is untracked, we use command: git add "file name" to move it to the staging area
+10- then we use command: git commit "descripting message" to setting the file as commit
+11- we can edit the file again and by using command: git status we can see that it is labeled as modified
