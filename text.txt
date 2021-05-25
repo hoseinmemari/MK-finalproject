@@ -10,3 +10,4 @@ these are the steps for creating and working with git
 9- as it is untracked, we use command: git add "file name" to move it to the staging area
 10- then we use command: git commit "descripting message" to setting the file as commit
 11- we can edit the file again and by using command: git status we can see that it is labeled as modified
+12- we edit the file again to check the status of the file and the differences between commits.
