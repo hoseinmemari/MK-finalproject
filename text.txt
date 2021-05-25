@@ -1,0 +1,6 @@
+these are the steps for creating and working with git
+1- creating directory by mkdir
+2- entering that folder by cd
+3- creating git repository by git init
+4- checking if we already set the config by git config --get user.name/user.email
+5- setting or editting the config by git config --global user.name ""/ user.email ""
