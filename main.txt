@@ -1,4 +1,4 @@
 this file was created for the second mid-project in git course
 by creating this file, we commit new file to the repository to push it to the github server
 
-this line is added to check the none fastforward merge
+this line is added to check the none fastforward merge (edited)
